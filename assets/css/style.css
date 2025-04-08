@@ -1,0 +1,93 @@
+:root {
+    --cuppon-green: #28a745;
+    --cuppon-dark-green: #218838;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    color: #212529;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-body h5.card-title {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.card-body p.text-secondary {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-body p i {
+    margin-right: 4px;
+}
+
+.card-footer {
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-footer .d-flex {
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.text-success {
+    color: var(--cuppon-green) !important;
+}
+
+.bg-success {
+    background-color: var(--cuppon-green) !important;
+}
+
+.form-control {
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+    border-color: var(--cuppon-dark-green);
+}
+
+.btn-light {
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 767.98px) {
+    .card-title {
+        min-height: auto;
+    }
+    
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
